@@ -4,7 +4,7 @@ import { useState } from "react";
 import { createWalletClient, custom } from "viem";
 import { base } from "viem/chains";
 import { BridgeSDK } from "@circle-fin/bridge-kit";
-import { ViemAdapter } from "@circle-fin/adapter-viem-v2";
+import { BridgeKit } from "@circle-fin/bridge-kit";
 
 import { 
   ConnectWallet, 
