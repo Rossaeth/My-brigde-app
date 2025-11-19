@@ -3,8 +3,7 @@
 import { useState } from "react";
 import { createWalletClient, custom } from "viem";
 import { base } from "viem/chains";
-import { BridgeSDK } from "@circle-fin/bridge-kit";
-import { BridgeKit } from "@circle-fin/bridge-kit";
+import { BridgeSDK } from "@circle-fin/bridge-kit";;
 
 import { 
   ConnectWallet, 
